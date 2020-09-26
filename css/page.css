@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(0, 0, 255);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+header a, header p {
+    position: relative;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    left: 10%;
+}
+
+.content {
+    padding-left: 15%;
+    padding-top: 70px;
+    width: 70%;
+    height: auto;
+}
+
+.content p {
+    padding-top:15px ;
+    color: black;
+    width: 70%;
+    text-align: justify;
+    font-weight: normal;
+    background-color: rgba(129, 129, 129, 0);
+}
+
+h4   {
+    font-size: 30px;
+}
+b {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+
+.contoh {
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    border-radius: 25px;
+    transition: ease 1s;
+}
+
+.contoh:hover {
+    font-size: 20px;
+    width: 55%;
+    height: auto;
+    padding: 20px;
+}
+
+.contohjs {
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(107, 107, 107);
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    border-radius: 25px;
+    transition: ease 1s;
+}
+
+.contohjs:hover {
+    font-size: 20px;
+    width: 55%;
+    height: auto;
+    padding: 20px;
+}
+
+
+.pp {
+    color: aqua;
+}
+
+mark {
+    background-color: rgba(0, 255, 255, 0);
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}   
+
+footer { 
+    background-color: rgb(0, 0, 255);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-sosial , .media-sosial i{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+.media-sosial i {
+    position: relative;
+    top: 10px;
+}
+.media-sosial i:hover {
+    color: rgb(3, 190, 247);
+}
+@media screen and (max-device-width: 800px) {
+    b {
+        color: rgb(255, 255, 255);
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .contoh {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .media-sosial i {
+        position: relative;
+        top: 10px;
+        padding-bottom: 10px;
+    }
+}

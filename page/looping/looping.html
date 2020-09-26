@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPING | ZULFI WEB</title>
+    <link rel="icon" type="image/png" href="../../img/zti.ico">
+    <link rel="stylesheet" href="../../css/page.css">
+     <!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+    <!--===============================================================================================-->
+        <!-- teplate untuk contoh 
+        <div class="contoh>
+            <b> </b>
+        </div> -->
+    <!--===============================================================================================-->
+     <!-- teplate untuk contoh JAVASCRIPT
+        <div class="contohjs">
+            <b id="cthjs"> </b>
+        </div> -->
+    <!--===============================================================================================-->
+        <header>
+            <a href="../../index.html"><i class="fa fa-arrow-circle-left" aria-hidden="true"></a></i>
+            <p>LOOPING</p>
+        </header>
+    <div class="content">
+    <div class="judul">
+        <!-- AWAL KONTEN -->
+        <h4>APA ITU LOOPING</h4>
+        <p>Looping atau perulangan adalah suatu serangkain perintah untuk mengulangi
+            suatu kondisi atau program tertentu. <br> <br>
+            Misalnya jika kita ingin menampikan sepuluh kata <mark>Hello world </mark>
+            pada console.log di bahasa memprograman javascript kita dapat menuliskannya
+            seperti ini 
+            <div class="contoh" id="cth">
+                <b> console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br>
+                    console.log('Helo World') <br></b>
+            </div>
+            <p>Jika kita melihat console maka akan ada 10 kali pengulangan kata <mark>Hello World</mark>
+            namun, cara tersebut tidaklah efektif, contohnya jika kita ingin menulisnya sebanyak
+            1000 kali, tentunya akan sangat menyulitkan.</p>
+            <h4>MENGENAL PERULANGAN PADA JAVASCRIPT</h4>
+            <p>
+                Kali ini kita akan membahasa 3 jenis pengulangan : <br> <br>
+                1. Perulangan FOR <br>
+                2. Perulangan WHILE <br>
+                3. Perulangan DO/WHILE <br> <br>
+
+                <h4>PERULANGAN MENGGUNAKAN FOR</h4>
+                <p>
+                    Perulangan FOR merupakan perulangan yang termasuk dalam
+                    <i>counted loop</i> karena sudah jelas berapa kali FOR harus
+                    melakukan looping, Contoh sintaks untuk melakukan looping menggunakan FOR :
+                    </p><div class="contoh" id="cth">
+                        <b> for (var i = 0; i < 10; i++){ <br>
+                        console.log('Hello World'); <br>
+                     } </b>
+                    </div>
+                    <p>Maka akan tertulis kata <mark>Hello world </mark> sebanyak 10 kali
+                    pada konsole log, tentunya itu akan memudahkan kita ketika kita akan melakukan
+                    perulangan yang banyak.</p>
+                    <br>
+                    <p>Mari kita bedah satu persatu : <br> <br>
+                    <mark>Var i = 0</mark> itu artinya perulangan yang kita lakukan akan
+                    dimulai dari 0 <br>
+                    <mark>i < 10 </mark> Perulangan yang kita lakukan akan dilakukan sebanyak 10 kali <br>
+                    <mark>i++ </mark> Itu artinya setiap perulangan akan ditambah 1 ( <i>Increament</i> ) <br> <br> </p>
+                    <h4>PERULANGAN MENGGUNAKAN WHILE</h4>
+                    <p>Contoh sintaksnya adalah sebagai berikut :</p>
+                        <div class="contoh" id="cth">
+                            <b> var nilaiAwal = 0; <br> <br>
+                                while (nilaiAwal < 10) {<br>
+                                    console.log('Hello World'); <br> <br>
+                                    nilaiAwal++; <br>
+                                 }</b>
+                        </div>
+                    <p>Sama seperti for, perintah tersebut akan mengembalikan nilai 
+                        <mark>Hello World</mark> sebanyak 10 kali kedalam konsole log.</p>
+                     <br> <br>
+                    <h4>PERULANGAN MENGGUNAKAN DO/WHILE</h4>
+                        <p>Perlungan dengan DO/WHILE akan melakukan perulangan sebanyak 1 kali
+                            terlebih dahulu, lalu mengecek kondisi yang ada didalam kurung WHILE. <br>
+                            Contoh sintaksnya seperti berikut : </p>
+                            <div class="contoh" id="cth">
+                                <b> nilaiAwal = 1 <br><br>
+                                    do {<br>
+                                         console.log ('Hello World') <br>
+                                         nilaiAwal++ <br> <br>
+                                         } while (nilaiAwal <= 10) </b>
+                            </div>
+                            <p>Mungkin akan sedikit menyulitkan menggunakan perulangan DO/WHILE bagi
+                                yang tidak terbiasa hehe :) <br> <br>
+                                Oke langsung saja kita akan melakukan perulangan menggunakan FOR yang ditulis dengan bahasa
+                                javascript dan hasilnya akan muncul dibawah ini <br> <br>
+                                <div class="contohjs" >
+                                    <b id="loopingjs"> </b>
+                                </div>
+                                Itulah pembahasan singkat kita mengenai materi perulangan,<br>
+                                Semoga bermanfaat dan dapat kalian pelajari dengan sebaik-baiknya.
+                            </p>
+            </p>
+        </p>
+        <!-- AKHIR KONTEN -->
+    </div>
+    </div><footer>
+        <div class="main_footer">
+            <div class="media-sosial">
+                <h6>Ikuti Zul di media Sosial</h6>
+                <a href="https://web.facebook.com/profile.php?id=100010601447455" target="_blank"><i class="fa fa-facebook m-l-5" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UC3PCvCcYadRmeDYzTVukmTQ" target="_bank"><i class="fa fa-youtube m-l-5" aria-hidden="true"></i></a>
+                <a href="https://wa.me/+6281901962615" target="_bank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/zhulf16/?hl=id" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../../js/looping.js"></script>
+</body>
+</html>

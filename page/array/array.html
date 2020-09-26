@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY | ZULFI WEB</title>
+    <link rel="icon" type="image/png" href="../../img/zti.ico">
+    <link rel="stylesheet" href="../../css/page.css">
+     <!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+    <!--===============================================================================================-->
+        <!-- teplate untuk contoh 
+        <div class="contoh" id="cth">
+            <b> </b>
+        </div> -->
+    <!--===============================================================================================-->
+     <!-- teplate untuk contoh JAVASCRIPT
+        <div class="contohjs" >
+            <b id="cthjs"> </b>
+        </div> -->
+    <!--===============================================================================================-->
+        <header>
+            <a href="../../index.html"><i class="fa fa-arrow-circle-left" aria-hidden="true"></a></i>
+            <p>ARRAY</p>
+        </header>
+    <div class="content">
+    <div class="judul">
+        <h4>APA ITU ARRAY?</h4>
+        <p>Array merupakan sebuah variabel yang menyimpan lebih dari satu buah data yang memiliki tipe data yang beragam,
+            jadi dapat dikatakan bahwa array merupakan kumpulan dari data-data tunggal yang dijadikan dalam 1 variabel
+            array yang alamat memorinya berbeda yang selanjutnya disebut elemen-elemen array yang bisa diakses berdasarkan
+            indeks. <br> <br> 
+            Array dalam kehidupan sehari hari dapat ditemukan pada penyusunan buku di perpusktakaan, dimaana dalam penyusunan
+            dilakukan pada bebereapa kategori, contohnya perpuskataakan di Kampus, maka buku - buku yang ada didalam perpusktakaan
+            akan dibedakan berdasarkan Fakultas, jurusan, mata kuliah, tingkatan (Pemula sampai Ahli), dan berbagai pengelompokan lainnya.
+        </p><br> <br> 
+        
+        <h4>CARA MEMBUAT ARRAY DALAM BAHASA JAVASCRIPT</h4>
+        <P>Pada Javascript Array dapat kita buat dengan menggunakan tanda kurung siku <b1>( <mark>[ ... ]</mark> )</b1>
+            Contoh :
+            <div class="contoh" id="cth">
+                <b> <b2>var</b2> zulfi = [ ];</b>
+            </div>
+            Maka variabel <mark>zulfi</mark> nantinya akan berisi sebuah array kosong <br><br>
+            <p>Kita dapat mengis data kedalam array yang masih kosong tadi, yang setiap datanya dipisah menggunakan
+                tanda (<mark> , </mark>) Seperti pada contoh berikut ini :
+                 teplate untuk contoh 
+                <div class="contoh" id="cth">
+                    <b>var zulfi = ["Bogor", "Tasik", "Februari"];</b>
+                </div><p>
+                ini artinya, didalam array zulfi sudah berisi <mark>Bogor, Tasik, Februari</mark>
+                yang perlu diketahui dalam array pada bahasa Javascript ini bahwa indeks atau perhitungan data
+                didalam array dimulai dari 0, jadi didalam array zulfi berisikan 2 buah indeks yang mana 
+                <mark>Bogor</mark> = 0, <mark>Tasik</mark> = 1, dan <mark>Februari</mark> = 2.
+                    <br><br>
+            Javascript adalah bahasa pemrograman yang bersifat <i>Dynamic Typing</i>, artinya kita
+            dapat mencampur dan menyimpan array dengan beberapa tipe data, Contohnya seperti ini :
+              <div class="contoh" id="cth">
+                <b>var zulfi = ["Bogor", "Tasik", True, 16, 0.5];</b>
+            </div>  
+        Contoh sederhana dari array pada Javascript yang akan kita tampilkan keadalam html
+        <div class="contoh" id="cth">
+            <b> (script) <br> zulfi = ["Bogor", "Tasik", "Februari"]; <br><br>
+                const ctharray = document.getElementById('arrayjs');
+                ctharray.innerHTML = zulfi;
+                <br>(/script)
+            </b>
+        </div>
+        maka yang akan tampil pada html adalah seperti berikut dan ini ditulis dalam bahasa Javascript
+        </p>
+        <div class="contohjs" >
+            <b id="arrayjs"> </b>
+        </div>
+        Itulah pembahasan singkat kita mengenai materi Array, <br>
+        Semoga bermanfaat dan dapat kalian pelajari dengan sebaik-baiknya.
+    </P>
+    
+    </div>
+    </div><footer>
+        <div class="main_footer">
+            <div class="media-sosial">
+                <h6>Ikuti Zul di media Sosial</h6>
+                <a href="https://web.facebook.com/profile.php?id=100010601447455" target="_blank"><i class="fa fa-facebook m-l-5" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UC3PCvCcYadRmeDYzTVukmTQ" target="_bank"><i class="fa fa-youtube m-l-5" aria-hidden="true"></i></a>
+                <a href="https://wa.me/+6281901962615" target="_bank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/zhulf16/?hl=id" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+<script src="../../js/array.js"></script>
+</body>
+</html>

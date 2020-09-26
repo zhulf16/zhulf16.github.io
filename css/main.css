@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body {
+    width: 100%;
+}
+.main {
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    left: 30%;
+}
+
+.judul {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.judul p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.wrapper  {
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    width: 100%;
+}
+.wrapper i {
+    padding: 10px;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container2 {
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.a1 , .a2 , .a3 , .a4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.wrapper a:hover {
+    background: rgb(160, 160, 160);
+    color: black;
+}
+
+
+.a1 {
+    background: chartreuse;
+    background: -moz-linear-gradient();
+    background: -o-linear-gradient();
+    background: -webkit-linear-gradient(-35deg, blue,rgb(0, 247, 255));
+    background: linear-gradient();
+}
+.a2 {
+    background: chartreuse;
+    background: -moz-linear-gradient();
+    background: -o-linear-gradient();
+    background: -webkit-linear-gradient(-35deg, rgb(251, 255, 0),rgb(136, 255, 0));
+    background: linear-gradient();
+}
+.a3 {
+    background: chartreuse;
+    background: -moz-linear-gradient();
+    background: -o-linear-gradient();
+    background: -webkit-linear-gradient(-35deg, rgb(174, 0, 255),rgb(255, 0, 106));
+    background: linear-gradient();
+}
+.a4 {
+    background: chartreuse;
+    background: -moz-linear-gradient();
+    background: -o-linear-gradient();
+    background: -webkit-linear-gradient(-35deg, rgb(21, 255, 0),rgb(0, 247, 255));
+    background: linear-gradient();
+}
+
+.informasi {
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(-135deg, rgb(66, 1, 187) ,rgb(212, 0, 255));
+    background: -o-linear-gradient(-135deg, rgb(4, 1, 187) ,rgb(212, 0, 255));
+    background: -moz-linear-gradient(-135deg, rgb(51, 1, 187) ,rgb(212, 0, 255));
+    background: linear-gradient(-135deg, rgb(51, 1, 187) ,rgb(212, 0, 255));
+    transition: ease 0.9s;
+}
+
+.informasi:hover {
+    width: 40%;
+}
+
+.info1 p {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.info2 h3 {
+    color: white;
+    margin-top: 20px;
+}
+
+.bio p {
+    font-size: 13px;
+    width: 35vh;
+    text-align: justify;
+}
+
+.img {
+   
+    transition: 0.5s;
+}
+.foto {
+    border-radius: 50%;
+    width: 158px;
+    height: 150px;
+}
+
+.sosialmedia h6 {
+    
+    top: 90px;
+    color: white;
+    font-size: 15px;
+}
+
+.sosialmedia i {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    transition: ease 0.5s;
+}
+.sosialmedia i:hover {
+    color: rgb(130, 4, 134);
+}
+
+
+@media screen and (max-device-width: 776px) {
+    body {
+        width: 100%;
+    }
+    .main {
+    position: relative;
+    width: auto;
+    height: 0%;
+    padding-top: 30%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper  {
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container2 {
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.informasi {
+    width: auto;
+    height: 50vh;
+}
+.informasi:hover {
+    width: auto;
+}
+
+}
+
+@media screen and (max-width: 830px) {
+    .main {
+        position: relative;
+        flex-wrap: nowrap;
+        width: auto;
+        height: 0%;
+        padding-top: 30%;
+        left: 0;
+    }
+
+    .wrapper {
+        height: 60vh;
+    }
+
+    .informasi {
+        width: auto;
+        height: auto;
+    }
+
+    .informasi:hover {
+        width: auto;
+    }
+
+
+    .a1 , .a2 , .a3 , .a4 {
+        font-size: 150%;
+    }
+
+    .bio p {
+        font-size: 13px;
+        width: auto;
+        text-align: justify;
+        margin-left: 2%;
+    }
+
+    }
